@@ -1,0 +1,152 @@
+PLAIN
+K 10
+svn:ignore
+V 11
+.git
+demos
+
+END
+ENDREP
+id: 4p-2.3-3.r4/50
+type: dir
+pred: 4p-2.0.r2/87802727
+count: 1
+text: 2 87802371 343 343 1a871b8b5f415a280c4c4800d72fd61d
+props: 4 0 37 0 8daebe98e487c755a9cd8d1c5aa82feb
+cpath: /trunk/assets/iphone/jQTouch
+copyroot: 3 /trunk/assets
+
+PLAIN
+K 6
+images
+V 22
+dir 4i-2.0.r2/87750247
+K 7
+jQTouch
+V 18
+dir 4p-2.3-3.r4/50
+END
+ENDREP
+id: 4g-2.3-3.r4/375
+type: dir
+pred: 4g-2.0.r2/87802968
+count: 1
+text: 4 283 79 79 fdbd0b7b0118695fe25e13f44f8d6d91
+cpath: /trunk/assets/iphone
+copyroot: 3 /trunk/assets
+
+PLAIN
+K 6
+iphone
+V 19
+dir 4g-2.3-3.r4/375
+K 8
+pannello
+V 22
+dir dq-2.0.r2/87817418
+K 3
+web
+V 22
+dir fy-2.0.r2/87824859
+END
+ENDREP
+id: 4f-2.3-3.r4/675
+type: dir
+pred: 4f-2.3-3.r3/591
+count: 2
+text: 4 545 117 117 acdfbfb647a1b18be99b8c39b811c2ee
+cpath: /trunk/assets
+copyroot: 3 /trunk/assets
+
+PLAIN
+K 9
+.htaccess
+V 17
+file 0-2.0-3.r3/0
+K 8
+TODO.txt
+V 19
+file 3-2.1-3.r3/209
+K 11
+application
+V 18
+dir 5-2.2-3.r3/419
+K 6
+assets
+V 19
+dir 4f-2.3-3.r4/675
+K 14
+cache.manifest
+V 20
+file he-2.4-3.r3/755
+K 10
+forms.html
+V 20
+file hg-2.5-3.r3/986
+K 10
+index.html
+V 21
+file hi-2.6-3.r3/1210
+K 9
+index.php
+V 21
+file hk-2.7-3.r3/1435
+K 8
+pannello
+V 20
+dir dq-2.9-3.r3/1828
+K 13
+playlist.html
+V 21
+file hm-2.a-3.r3/2004
+K 6
+system
+V 20
+dir ho-2.b-3.r3/2235
+END
+ENDREP
+PLAIN
+K 10
+svn:ignore
+V 21
+cache
+logs
+locandine
+
+END
+ENDREP
+id: 0-3.0.r4/1360
+type: dir
+pred: 0-3.0.r3/3100
+count: 1
+text: 4 837 450 450 f05d0aba7f60978e790c76d83f2debe5
+props: 4 1300 47 0 931dbe8a5513337209114bb719487e95
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 5
+trunk
+V 17
+dir 0-3.0.r4/1360
+END
+ENDREP
+id: 0.0.r4/1601
+type: dir
+pred: 0.0.r3/3270
+count: 4
+text: 4 1551 37 37 b94c5dc993defbc7c47c6747a073fb89
+props: 2 87868822 55 0 fc867a5248de160366311b88a8e86097
+cpath: /
+copyroot: 0 /
+
+0-3.0.t3-3 modify-dir false true /trunk
+
+4p-2.3-3.t3-3 modify-dir false true /trunk/assets/iphone/jQTouch
+
+4g-2.8-3.r3/1658 delete-dir false false /trunk/iphone
+
+fy-2.c-3.r3/2400 delete-dir false false /trunk/web
+
+
+1601 1786

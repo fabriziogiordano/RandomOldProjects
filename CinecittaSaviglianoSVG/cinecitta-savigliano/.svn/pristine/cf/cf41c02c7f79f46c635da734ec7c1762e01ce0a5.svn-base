@@ -1,0 +1,43 @@
+<?php
+$jqpath = '/assets/iphone/jQTouch';
+$jqtheme = 'apple';
+
+/*
+NETWORK:
+search.php
+login.php
+/api
+
+FALLBACK:
+images/dynamic.php static_image.png
+*/
+?>
+CACHE MANIFEST
+# Rev 3
+CACHE:
+<?php echo $jqpath;?>/../images/cinecitta_icon.png
+<?php echo $jqpath;?>/../images/cinecitta_startup.png
+<?php echo $jqpath;?>/jqtouch/jqtouch.js
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/theme.css
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/actionButton.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/activeButton.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/backButton.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/back_button_clicked.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/button_clicked.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/cancel.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/chevron.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/grayButton.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/greenButton.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/listArrowSel.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/listGroup.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/loading.gif
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/on_off.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/pinstripes.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/redButton.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/selection.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/thumb.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/toggle.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/toggleOn.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/toolButton.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/toolbar.png
+<?php echo $jqpath;?>/themes/<?php echo $jqtheme;?>/img/whiteButton.png

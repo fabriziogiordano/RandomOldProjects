@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Pligoo</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/style/style.css" />
+		
+	<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.1.js"></script>
+	<script type="text/javascript" src="assets/js/effects.js"></script>
+
+	<script type="text/javascript" src="http://use.typekit.com/rwv1qnu.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		
+	<!--[if IE]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	
+	<!--[if lte IE 7]>
+		<script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE8.js"></script>
+	<![endif]-->
+
+	
+</head>
+<body class="home">
+	
+	<header>
+		
+		<div class="wrapper">
+
+			<h1><a href="#"><span>Pligoo</span></a></h1>
+
+			<nav>
+				<ul class="nav">
+					<li class="current"><a href="#">Home</a></li>
+					<li><a href="#">Browse</a></li>
+					<li><a href="#">Tools</a></li>
+					<li><a href="#">Help</a></li>
+				</ul>
+			</nav>	
+			
+			<div class="user">
+				<img src="http://dummyimage.com/40x40/999/fff.jpg" alt="thumnail" />
+				<h3>Hi <strong>Raffaele</strong></h3>
+				<small><a href="#">Settings</a> &middot; <a href="#">Logout</a></small>
+				<!--<a href="#" class="access">Login / Register</a>-->
+			</div>
+			
+			
+		</div>
+	</header>
+	
+	<div class="content"><div class="content_int">
+		<div class="wrapper">
+
+		<div class="main single">			
+
+			<div class="title">
+				<h2>Funny Stuff  <em>(6)</em></h2>
+				<form>
+					<span>Show on top the</span>
+					<select>
+						<option>latest added</option>
+						<option>first added</option>
+						<option>most played</option>
+					</select>
+					<span>videos</span>
+				</form>
+			</div>
+			
+			<section class="player">
+			<ul class="nav">
+				<li><a href="#" class="next">Next &rsaquo;</a></li>
+				<li><a href="#" class="prev">&lsaquo; Prev</a></li>
+			</ul>
+			
+			<h3>Creatures comforts- Is anyone out there? </h3>
+			
+			<object width="640" height="505"><param name="movie" value="http://www.youtube.com/v/kFfK5vl5N5g&hl=it_IT&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/kFfK5vl5N5g&hl=it_IT&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="505"></embed></object>
+				<!--<object width="640" height="360"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=11219730&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=FF7700&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=11219730&amp;server=vimeo.com&amp;show_title=1&amp;show_byline=1&amp;show_portrait=1&amp;color=FF7700&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="640" height="360"></embed></object>-->
+			</section>
+			
+				<!--<section class="next">			
+					<h3>Next video</h3>
+		
+					<article>
+						<a href="#"><img src="http://dummyimage.com/120x90/999/fff.jpg" alt="thumnail"/></a>
+						<a href="#"><h4>Titolo della playlist abbastanza lungo</h4></a>
+						<p><em>saved</em> 4 days ago <em>from</em> <a href="#">YouTube</a></p>
+						<p></p>
+					</article>
+				</section>-->
+					
+				<section class="video_list">	
+				<h3>Videos in this playlist</h3>
+				<ul>
+					<li>
+						<article>
+							<a href="#"><img src="http://dummyimage.com/40x30/999/fff.jpg" alt="thumnail"/></a>
+							<h4><a href="#">Titolo della playlist abbastanza lungo</a></h4>
+							<p><em>saved</em> 1 hour ago <em>from</em> <a href="#">YouTube</a></p>
+						</article>
+					</li>
+					<li class="current">
+						<article>
+							<a href="#"><img src="http://dummyimage.com/40x30/999/fff.jpg" alt="thumnail"/></a>
+							<h4><a href="#">Titolo della playlist abbastanza lungo</a></h4>
+							<p><em>saved</em> 5 hours ago <em>from</em> <a href="#">YouTube</a></p>
+						</article>
+					</li>
+					<li>
+						<article>
+							<a href="#"><img src="http://dummyimage.com/40x30/999/fff.jpg" alt="thumnail"/></a>
+							<h4><a href="#">Titolo della playlist abbastanza lungo</a></h4>
+							<p><em>saved</em> 4 days ago <em>from</em> <a href="#">YouTube</a></p>
+						</article>
+					</li>
+					<li>
+						<article>
+							<a href="#"><img src="http://dummyimage.com/40x30/999/fff.jpg" alt="thumnail"/></a>
+							<h4><a href="#">Titolo della playlist abbastanza lungo</a></h4>
+							<p><em>saved</em> 7 days ago <em>from</em> <a href="#">YouTube</a></p>
+						</article>
+					</li>
+					<li>
+						<article>
+							<a href="#"><img src="http://dummyimage.com/40x30/999/fff.jpg" alt="thumnail"/></a>
+							<h4><a href="#">Titolo della playlist abbastanza lungo</a></h4>
+							<p><em>saved</em> 8 days ago <em>from</em> <a href="#">YouTube</a></p>
+						</article>
+					</li>
+					<li>
+						<article>
+							<a href="#"><img src="http://dummyimage.com/40x30/999/fff.jpg" alt="thumnail"/></a>
+							<h4><a href="#">Titolo della playlist abbastanza lungo</a></h4>
+							<p><em>saved</em> 10 days ago <em>from</em> <a href="#">YouTube</a></p>
+						</article>
+					</li>
+				</ul>
+				</section>
+
+						
+
+		</div>
+		
+		<aside>
+				
+				<form class="search">
+					<input type="text" />
+				</form>
+
+			<div class="block panel">
+				<div class="title">
+					<a href="#" class="add">Add new</a>
+					<h3>Your Playlists</h3>
+				</div>	
+				<div class="int">					
+					<ul>
+						<li class="current"><em>14</em><a href="#">Funny stuff</a> </li>
+						<li><em>12</em><a href="#">Chi vuol essere milionario?</a></li>
+						<li><em>32</em><a href="#">Production tips</a></li>
+						<li><em>12</em><a href="#">Chi vuol essere milionario? In 2 righe</a></li>
+						<li><em>5</em><a href="#">Music videos</a></li>
+					</ul>
+				</div>				
+			</div>
+
+			<section class="block info_video">	
+				<div class="title"><h3>Info Video</h3></div>
+				
+				<div class="int">				
+					<h4>Pligoo's url:</h4>				
+					<p> <input type="text" value="http://www.pligoo.com/playlist/54/#1" /> <small>Use it for share this video</small></p>
+					<p> <a href="http://www.youtube.com/watch?v=kFfK5vl5N5g">This video on <strong>YouTube</strong></a></p>
+				</div>	
+			</section>
+
+		
+		</aside>
+	
+	</div> <!-- end Wrapper-->
+	</div></div> <!-- and Content-->
+
+<footer>
+	<div class="wrapper">
+	
+	</div>
+</footer>
+</body>
+</html>

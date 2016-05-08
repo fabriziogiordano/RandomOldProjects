@@ -1,0 +1,17 @@
+K 10
+svn:author
+V 8
+hellotxt
+K 8
+svn:date
+V 27
+2012-12-11T20:38:13.197935Z
+K 7
+svn:log
+V 76
+Facebook Key
+This line, and those below, will be ignored--
+
+M    config.php
+
+END

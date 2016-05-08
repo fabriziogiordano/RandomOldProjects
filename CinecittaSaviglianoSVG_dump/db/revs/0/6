@@ -1,0 +1,158 @@
+PLAIN
+K 4
+.git
+V 22
+dir 4q-2.0.r2/87760517
+K 11
+LICENSE.txt
+V 23
+file 6q-2.0.r2/87760667
+K 10
+README.txt
+V 23
+file 6s-2.0.r2/87760875
+K 10
+extensions
+V 22
+dir ai-2.0.r2/87783313
+K 7
+jqtouch
+V 22
+dir as-2.0.r2/87784566
+K 15
+sample.htaccess
+V 23
+file b2-2.0.r2/87784719
+K 6
+themes
+V 22
+dir b4-2.0.r2/87802221
+END
+ENDREP
+id: 4p-2.3-3.r6/318
+type: dir
+pred: 4p-2.3-3.r4/50
+count: 2
+text: 6 0 305 305 2f755296e20876c499bfd0dfcfe38cc9
+props: 4 0 37 0 8daebe98e487c755a9cd8d1c5aa82feb
+cpath: /trunk/assets/iphone/jQTouch
+copyroot: 3 /trunk/assets
+
+PLAIN
+K 6
+images
+V 22
+dir 4i-2.0.r2/87750247
+K 7
+jQTouch
+V 19
+dir 4p-2.3-3.r6/318
+END
+ENDREP
+id: 4g-2.3-3.r6/634
+type: dir
+pred: 4g-2.3-3.r4/375
+count: 2
+text: 6 541 80 80 c15012b9047cf1e305b7dddad0e57343
+cpath: /trunk/assets/iphone
+copyroot: 3 /trunk/assets
+
+PLAIN
+K 6
+iphone
+V 19
+dir 4g-2.3-3.r6/634
+K 8
+pannello
+V 22
+dir dq-2.0.r2/87817418
+K 3
+web
+V 22
+dir fy-2.0.r2/87824859
+END
+ENDREP
+id: 4f-2.3-3.r6/931
+type: dir
+pred: 4f-2.3-3.r4/675
+count: 3
+text: 6 801 117 117 7e0c76e4bee788dc8f115b91d627da2d
+cpath: /trunk/assets
+copyroot: 3 /trunk/assets
+
+PLAIN
+K 9
+.htaccess
+V 17
+file 0-2.0-3.r3/0
+K 8
+TODO.txt
+V 19
+file 3-2.1-3.r3/209
+K 11
+application
+V 19
+dir 5-2.2-3.r5/1931
+K 6
+assets
+V 19
+dir 4f-2.3-3.r6/931
+K 14
+cache.manifest
+V 20
+file he-2.4-3.r3/755
+K 10
+forms.html
+V 20
+file hg-2.5-3.r3/986
+K 10
+index.html
+V 21
+file hi-2.6-3.r3/1210
+K 9
+index.php
+V 21
+file hk-2.7-3.r3/1435
+K 8
+pannello
+V 20
+dir dq-2.9-3.r3/1828
+K 13
+playlist.html
+V 21
+file hm-2.a-3.r3/2004
+K 6
+system
+V 20
+dir ho-2.b-3.r3/2235
+END
+ENDREP
+id: 0-3.0.r6/1557
+type: dir
+pred: 0-3.0.r5/2567
+count: 3
+text: 6 1093 451 451 fd615f841b9a8701395e2aa2f7b03a01
+props: 4 1300 47 0 931dbe8a5513337209114bb719487e95
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 5
+trunk
+V 17
+dir 0-3.0.r6/1557
+END
+ENDREP
+id: 0.0.r6/1799
+type: dir
+pred: 0.0.r5/2809
+count: 6
+text: 6 1749 37 37 ed3a77957923ecdb38680cc070b70ae2
+props: 2 87868822 55 0 fc867a5248de160366311b88a8e86097
+cpath: /
+copyroot: 0 /
+
+6u-2.0.r2/87782054 delete-dir false false /trunk/assets/iphone/jQTouch/demos
+
+
+1799 1984

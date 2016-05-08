@@ -1,0 +1,102 @@
+id: 1-87.0-88.r88/0
+type: file
+pred: 1-87.0.r87/67
+count: 1
+text: 87 0 54 42 59533e4b6859855ec2f2d4a0731be190 5fb3771921c413045300e8c177c1522ed3b1edcf 86-2e/_3
+cpath: /trunk/robots.txt
+copyfrom: 87 /trunk/robot.txt
+
+PLAIN
+K 9
+.htaccess
+V 21
+file 0-2.0-3.r86/1012
+K 16
+BingSiteAuth.xml
+V 19
+file 1-42.0.r42/111
+K 8
+TODO.txt
+V 21
+file 3-2.1-3.r37/1018
+K 11
+application
+V 20
+dir 5-2.2-3.r86/6761
+K 6
+assets
+V 22
+dir 4f-2.3-3.r85/10243
+K 14
+cache.manifest
+V 23
+file he-2.4-3.r38/12505
+K 26
+cinecittasavigliano.tmproj
+V 19
+file y-17.0.r64/233
+K 11
+favicon.ico
+V 20
+file 1-21.0.r21/5355
+K 10
+forms.html
+V 20
+file hg-2.5-3.r3/986
+K 27
+googlec986a8352f5c0b97.html
+V 21
+file n-85.0.r85/10414
+K 10
+index.html
+V 21
+file hi-2.6-3.r3/1210
+K 9
+index.php
+V 21
+file hk-2.7-3.r65/274
+K 13
+playlist.html
+V 21
+file hm-2.a-3.r3/2004
+K 10
+robots.txt
+V 20
+file 1-87.0-88.r88/0
+K 6
+system
+V 20
+dir ho-2.b-3.r3/2235
+END
+ENDREP
+id: 0-3.0.r88/903
+type: dir
+pred: 0-3.0.r87/927
+count: 85
+text: 88 216 674 674 1f01aea701f82f2383de1782a1bfcb79
+props: 4 1300 47 0 931dbe8a5513337209114bb719487e95
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 5
+trunk
+V 17
+dir 0-3.0.r88/903
+END
+ENDREP
+id: 0.0.r88/1146
+type: dir
+pred: 0.0.r87/1171
+count: 88
+text: 88 1096 37 37 f1a833ec3d7e4fa03b9b49768ea18585
+props: 2 87868822 55 0 fc867a5248de160366311b88a8e86097
+cpath: /
+copyroot: 0 /
+
+1-87.0.r87/67 delete-file false false /trunk/robot.txt
+
+1-87._0.t87-2f add-file false false /trunk/robots.txt
+87 /trunk/robot.txt
+
+1146 1335

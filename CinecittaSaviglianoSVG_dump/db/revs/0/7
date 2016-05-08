@@ -1,0 +1,154 @@
+PLAIN
+K 11
+LICENSE.txt
+V 23
+file 6q-2.0.r2/87760667
+K 10
+README.txt
+V 23
+file 6s-2.0.r2/87760875
+K 10
+extensions
+V 22
+dir ai-2.0.r2/87783313
+K 7
+jqtouch
+V 22
+dir as-2.0.r2/87784566
+K 15
+sample.htaccess
+V 23
+file b2-2.0.r2/87784719
+K 6
+themes
+V 22
+dir b4-2.0.r2/87802221
+END
+ENDREP
+id: 4p-2.3-3.r7/281
+type: dir
+pred: 4p-2.3-3.r6/318
+count: 3
+text: 7 0 268 268 a4c139f8e7d923321789d903bbc293a1
+props: 4 0 37 0 8daebe98e487c755a9cd8d1c5aa82feb
+cpath: /trunk/assets/iphone/jQTouch
+copyroot: 3 /trunk/assets
+
+PLAIN
+K 6
+images
+V 22
+dir 4i-2.0.r2/87750247
+K 7
+jQTouch
+V 19
+dir 4p-2.3-3.r7/281
+END
+ENDREP
+id: 4g-2.3-3.r7/598
+type: dir
+pred: 4g-2.3-3.r6/634
+count: 3
+text: 7 505 80 80 9582100e0e34cbc09ff4bf3b3eb5c6d1
+cpath: /trunk/assets/iphone
+copyroot: 3 /trunk/assets
+
+PLAIN
+K 6
+iphone
+V 19
+dir 4g-2.3-3.r7/598
+K 8
+pannello
+V 22
+dir dq-2.0.r2/87817418
+K 3
+web
+V 22
+dir fy-2.0.r2/87824859
+END
+ENDREP
+id: 4f-2.3-3.r7/895
+type: dir
+pred: 4f-2.3-3.r6/931
+count: 4
+text: 7 765 117 117 68df9e71ec37892552147f645c70e33d
+cpath: /trunk/assets
+copyroot: 3 /trunk/assets
+
+PLAIN
+K 9
+.htaccess
+V 17
+file 0-2.0-3.r3/0
+K 8
+TODO.txt
+V 19
+file 3-2.1-3.r3/209
+K 11
+application
+V 19
+dir 5-2.2-3.r5/1931
+K 6
+assets
+V 19
+dir 4f-2.3-3.r7/895
+K 14
+cache.manifest
+V 20
+file he-2.4-3.r3/755
+K 10
+forms.html
+V 20
+file hg-2.5-3.r3/986
+K 10
+index.html
+V 21
+file hi-2.6-3.r3/1210
+K 9
+index.php
+V 21
+file hk-2.7-3.r3/1435
+K 8
+pannello
+V 20
+dir dq-2.9-3.r3/1828
+K 13
+playlist.html
+V 21
+file hm-2.a-3.r3/2004
+K 6
+system
+V 20
+dir ho-2.b-3.r3/2235
+END
+ENDREP
+id: 0-3.0.r7/1521
+type: dir
+pred: 0-3.0.r6/1557
+count: 4
+text: 7 1057 451 451 58d2824224b58543a15ebbd80cbc11a3
+props: 4 1300 47 0 931dbe8a5513337209114bb719487e95
+cpath: /trunk
+copyroot: 0 /
+
+PLAIN
+K 5
+trunk
+V 17
+dir 0-3.0.r7/1521
+END
+ENDREP
+id: 0.0.r7/1763
+type: dir
+pred: 0.0.r6/1799
+count: 7
+text: 7 1713 37 37 1f3704e8a20a6e6a60084a693ee33c4d
+props: 2 87868822 55 0 fc867a5248de160366311b88a8e86097
+cpath: /
+copyroot: 0 /
+
+4q-2.0.r2/87760517 delete-dir false false /trunk/assets/iphone/jQTouch/.git
+
+
+1763 1948

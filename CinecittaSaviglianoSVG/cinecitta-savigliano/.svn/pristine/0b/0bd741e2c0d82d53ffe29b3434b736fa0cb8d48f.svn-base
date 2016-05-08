@@ -1,0 +1,62 @@
+Finire modulo contattaci
+ - aggiungere invio email a email_info
+ - pensare ad eventuali controlli di spam
+
+Fare pagina per disiscrizione newsletter
+
+Finire Newsletter
+
+Mettere la cache in produzione
+
+Testare su emulatore iPhone
+Testare su emulatore Android
+Testare mobile
+Aggiornare immagini per iPhone
+
+Implementare posting su Facebook
+
+Test e validare il feed rss.
+
+Richiedere attivazione servers
+
+Verificare che URL film contenga http
+
+
+
+
+Web
+	/
+	/film
+	/programmazione
+	/sale
+	/3d
+	
+	chi siamo
+	dove siamo
+	contattaci
+	mailining list
+	
+	
+
+Pannello
+	/pannello
+	/pannello/session/login | logout
+	/pannello/film
+	/pannello/film/aggiungi
+	/pannello/film/modifica/id
+	
+	/pannello/programmazione
+	/pannello/programmazione/crea
+	/pannello/programmazione/modifica/id
+	
+	/pannello/mailing
+	/pannello/utenti
+
+	
+		
+	
+	
+iPhone
+	/iphone
+	/iphone/film
+	/iphone/bookmark
