@@ -1,0 +1,79 @@
+html, body, #map-canvas {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+#increase {
+  position: absolute;
+  top: 304px;
+  right: 5px;
+  z-index: 200;
+  padding: 10px;
+  width: 280px;
+  /*border: 5px solid white;*/
+  border-radius: 10px;
+  background-color: rgba(133, 158, 194, 0.7);
+  color: white;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(64, 78, 101);
+  font: 20px 'Raleway', sans-serif;
+  box-sizing: border-box;
+}
+#increase span {
+  font: 30px 'Raleway', sans-serif;
+  text-shadow: 1px 1px 1px rgba(64, 78, 101, 0.85);
+}
+
+.face {
+  position: absolute;
+  top: 225px;
+  right: 100px;
+  z-index: 300;
+  box-sizing: border-box;
+  margin: auto 0;
+  width: 80px;
+  height: 80px;
+  /*border: 5px solid #f5f5f5;*/
+  border-radius: 130px;
+  background-color: rgba(133, 158, 194, 0.7);
+}
+
+#hour {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -5px 0 -5px -25px;
+  padding: 5px 0 5px 25px;
+  width: 0;
+  height: 0;
+  background: #404e65;
+  -webkit-transform-origin: 100% 50%;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#minute {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -30px -5px 0;
+  padding: 30px 5px 0;
+  width: 0;
+  height: 0;
+  background: #a2c5fd;
+  -webkit-transform-origin: 50% 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#controlls {
+  position: absolute;
+  z-index: 2000;
+}
+
+.button.big {
+  font-size: 14px;
+  bottom: 20px;
+  position: absolute;
+  z-index: 20000;
+  right: 20px;
+}

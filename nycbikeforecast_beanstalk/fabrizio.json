@@ -1,0 +1,68 @@
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script>
+var doks = {"executionTime":"2013-06-05 12:09:01 AM","stationBeanList":[{"id":72,"stationName":"W 52 St & 11 Av","availableDocks":5,"totalDocks":39,"latitude":40.76727216,"longitude":-73.99392888,"statusValue":"In Service","statusKey":1,"availableBikes":25,"stAddress1":"W 52 St & 11 Av","stAddress2":"","city":"","postalCode":"","location":"","altitude":"","testStation":false,"lastCommunicationTime":null,"landMark":""},{"id":79,"stationName":"Franklin & West Broadway","availableDocks":25,"totalDocks":33,"latitude":40.71911552,"longitude":-74.00666661,"statusValue":"In Service","statusKey":1,"availableBikes":7,"stAddress1":"Franklin & West Broadway","stAddress2":"","city":"","postalCode":"","location":"","altitude":"","testStation":false,"lastCommunicationTime":null,"landMark":""},{"id":82,"stationName":"St. James Pl & Pearl St","availableDocks":8,"totalDocks":26,"latitude":40.71117416,"longitude":-74.00016545,"statusValue":"In Service","statusKey":1,"availableBikes":18,"stAddress1":"St. James Pl & Pearl St","stAddress2":"","city":"","postalCode":"","location":"","altitude":"","testStation":false,"lastCommunicationTime":null,"landMark":""},{"id":83,"stationName":"Atlantic Av & Ft. Greene Pl","availableDocks":0,"totalDocks":62,"latitude":40.68382604,"longitude":-73.97632328,"statusValue":"In Service","statusKey":1,"availableBikes":7,"stAddress1":"Atlantic Av & Ft. Greene Pl","stAddress2":"","city":"","postalCode":"","location":"","altitude":"","testStation":false,"lastCommunicationTime":null,"landMark":""}]};var map;
+console.log(doks.stationBeanList[0]);
+
+function initialize() {
+  var mapOptions = {
+    zoom: 15,
+    center: new google.maps.LatLng(doks.stationBeanList[0].latitude, doks.stationBeanList[0].longitude),
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    mapTypeControl: true,
+    zoomControl: true
+  };
+  map = new google.maps.Map(document.getElementById('map-canvas'),mapOptions);
+
+  for(var i=0,ln=doks.stationBeanList.length; i <= ln; i++) {
+    var myLatLng = new google.maps.LatLng(doks.stationBeanList[i].latitude, doks.stationBeanList[i].longitude);
+    var beachMarker = new google.maps.Marker({
+      position: myLatLng,
+      map: map,
+      icon: createMarker(
+      				doks.stationBeanList[i].availableBikes*doks.stationBeanList[i].totalDocks,
+      				doks.stationBeanList[i].availableDocks*doks.stationBeanList[i].totalDocks,
+      				doks.stationBeanList[i].totalDocks
+      			)
+    });
+  }
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+
+function createMarker(width, height, radius) {
+
+  var canvas, context;
+
+  canvas = document.createElement("canvas");
+  canvas.width = width;
+  canvas.height = height;
+
+  context = canvas.getContext("2d");
+
+  context.clearRect(0,0,width,height);
+
+  // background is yellow
+  context.fillStyle = "rgba(255,255,0,1)";
+
+  // border is black
+  context.strokeStyle = "rgba(0,0,0,1)";
+
+  context.beginPath();
+  context.moveTo(radius, 0);
+  context.lineTo(width - radius, 0);
+  context.quadraticCurveTo(width, 0, width, radius);
+  context.lineTo(width, height - radius);
+  context.quadraticCurveTo(width, height, width - radius, height);
+  context.lineTo(radius, height);
+  context.quadraticCurveTo(0, height, 0, height - radius);
+  context.lineTo(0, radius);
+  context.quadraticCurveTo(0, 0, radius, 0);
+  context.closePath();
+
+  context.fill();
+  context.stroke();
+
+  return canvas.toDataURL();
+
+}
+</script>
+<div id="map-canvas"></div>
